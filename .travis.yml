@@ -1,0 +1,9 @@
+sudo: required
+services:
+    - docker
+
+script:
+    - docker build -t osangare/node .
+    - docker images osangare/node
+
+     
